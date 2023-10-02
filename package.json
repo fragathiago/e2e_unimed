@@ -1,0 +1,25 @@
+{
+  "name": "e2e_unimed",
+  "version": "1.0.0",
+  "description": "testes e2e unimed com cypress",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules/ package-lock.json",
+    "cy:open": "cypress open --browser chrome",
+    "cy:run": "cypress run --spec cypress/e2e/*/**/*.e2e.cy.js"
+  },
+  "author": "Thiago Fraga",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "faker-br": "^0.4.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COLOCAR_AQUI"
+  }
+}
