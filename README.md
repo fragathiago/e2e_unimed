@@ -2,6 +2,8 @@
 
 Repositório de teste e2e utilizando o cypress.
 
+Backlog do Projeto: https://github.com/users/fragathiago/projects/1/views/1
+
 ## Configurações:
 
 Para configurar o projeto é necessário ter em sua máquina:
