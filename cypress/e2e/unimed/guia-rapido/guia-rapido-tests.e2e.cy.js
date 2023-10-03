@@ -27,9 +27,10 @@ describe('Guia Rápido Testes', () => {
     cy.get('span[class="NoCardAvailable--text"]').contains(TEXTO_ERROR).should('be.visible')
   })
 
-  it.only('CT003 - Pesquisar via busca rápida com filtros Telemedicina e Urgencia e Emergencia ativo', () => {
+  it('CT003 - Pesquisar via busca rápida com filtros Telemedicina e Urgencia e Emergencia ativo', () => {
     let MEDICO = 'Médico'
-    let  NOME_HOSPITAL = 'Hospital Semper'
+    let NOME_HOSPITAL = 'Hospital Semper'
+    
     cy.get('input[id="react-select-2-input"]').type(MEDICO, { force: true })
     cy.get('input[id="Switch-1"]').click()
     cy.get('input[id="Switch-2"]').click()
